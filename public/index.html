@@ -2,10 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Document</title>
-</head>
+</head> 
 <body>
+    <!-- navigation -->
+    <nav class="bg-purple-900 w-full fixed top-0 z-10">
+        <div class="container mx-auto py-5 flex items-center justify-between md:px-10">
+            <div class="flex items-center gap-2 ">
+                <img class="w-8" src="" alt="">
+                <span class="text-2xl font-bold text-white">G-CIMAM</span>
+            </div>
+           
+            <ul class="hidden md:flex space-x-10 text-white font-bold text-sm uppercase">
+                <li class="hover:text-gray-700">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="hover:text-gray-700">
+                    <a href="services.html">services</a>
+                </li>
+                <li class="hover:text-gray-700" >
+                    <a href="about.html">About</a>
+                </li>
+                <li class="hover:text-gray-700">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="hover:text-gray-700">
+                    <a href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main -->
+    <div class="relative bg-cover">
+        <img src="/public/car rental.jpg" alt="">
+        <div class="absolute top-0 left-0 bg-black opacity-50 text-white text-3xl font-extrabold w-full h-full flex items-center ">
+          <h1 class="ml-5">Welcome to <span class="text-purple-900">G-CIMAM </span><br>Where precision meets <br> perfection</h1>
+        </div>
+      </div>
+      
     
 </body>
 </html>
